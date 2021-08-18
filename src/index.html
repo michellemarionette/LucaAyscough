@@ -4,19 +4,41 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
         <title>Luca Ayscough</title>
         <meta name="description" content="" />
         <meta name="author" content="Luca Ayscough" />
-        <link rel="stylesheet" href="index.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="index.css" />
     </head>
 
     <body>
-        <div class="header">Sdmskdm</div>
-        <div class="first"></div>
+        <div class="header">
+            <a href="#about">About</a>
+            <a href="#reel">Reel</a>
+            <a href="#discography">Discography</a>
+            <a href="#" id="contact_button">Contact</a>
+        </div>
         
-        <div class="second">
+        <div class="about" id="about">
+        </div>
+       
+        <div class="reel" id="reel">
             <div class="section_title">
-                <h1>Portfolio</h1>
+                <h1>REEL</h1>
+            </div>
+
+            <div class="section_content">
+                sdsdsd
+            </div>
+        </div>
+
+        <div class="discography" id="discography">
+            <div class="section_title">
+                <h1>DISCOGRAPHY</h1>
             </div>
 
             <div class="section_content">
@@ -26,7 +48,25 @@
 
             </div>
         </div>
+
+        <div class="contact">
+            <div class="section_title">
+                <h1>CONTACT</h1>
+            </div> 
+
+            <div class="section_content">
+                <form action="/action_page.php">
+                    <label for="email">E-Mail:</label><br>
+                    <input type="text" id="email" name="email" value=""><br>
+                    <label for="message">Message:</label><br>
+                    <input type="text" id="message" name="message" value=""><br><br>
+                    <input type="submit" value="Submit">
+                </form> 
+            </div>
+        </div>
         
         <div class="footer"></div>
+    
+        <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
