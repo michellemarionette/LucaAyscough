@@ -70,6 +70,11 @@ h1{
     box-shadow: 0px 0px 39px 7px rgba(0,0,0,0.24);
 }
 
+.contact .section_content{
+    display: flex;
+    justify-content: center;
+}
+
 .contact .section_content form{
     background-color: #011627;
     border-radius: 5px;
@@ -79,12 +84,12 @@ h1{
 }
 
 .close{
-    width: 50px;
-    height: 50px;
+    width: 15px;
+    height: 15px;
     background-color: white;
-    position: absolute;
-    right: 100px;
-    top: 100px;
+    position: relative;
+    float: right; 
+    border-radius: 15px; 
 }
 
 .section_title{
