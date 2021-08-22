@@ -26,7 +26,6 @@ p{
 
 .header{
     display: flex;
-    justify-content: center;
     height: auto;
     width: 100%;
     position: fixed;
@@ -34,11 +33,35 @@ p{
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.header a{
+
+
+.header .logo{
+    flex-basis: 15%;
+}
+
+.header .page_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 70%;
+}
+
+.header .social_links{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-basis: 15%;
+}
+
+.header .page_links a{
     color: #fdfffc;
     margin-left: 20px;
     margin-right: 20px;
     text-decoration: none;
+}
+
+.header .social_links img{
+    width: 40px;
 }
 
 .about{
