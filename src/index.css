@@ -13,6 +13,17 @@ h1{
     padding: 0;
 }
 
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
 .header{
     display: flex;
     justify-content: center;
@@ -35,6 +46,11 @@ h1{
     height: 100%;
     background: url("../assets/rick.jpg") no-repeat center;
     background-size: cover;
+}
+
+.about .section_content{
+    padding-top: 100px;
+    padding-left: 80px;
 }
 
 .discography{
@@ -95,7 +111,7 @@ h1{
 .section_title{
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
