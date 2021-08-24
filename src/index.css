@@ -17,6 +17,14 @@ p{
     font-size: 13px;
 }
 
+a{
+    text-decoration: none;
+    color: #fdfffc; 
+}
+
+/* ----------------------------------------------------- */
+/* HEADER */
+
 .header{
     display: flex;
     height: auto;
@@ -66,7 +74,7 @@ p{
 }
 
 .social_links #youtube{
-    background-image: url("../assets/icons/youtube-off.png");
+    background-image: url("..assets/icons/youtube-off.png");
 }
 
 .social_links a:hover #youtube{
@@ -89,34 +97,35 @@ p{
     background-image: url("../assets/icons/github-on.png");
 }
 
+/* ----------------------------------------------------- */
+/* CONTAINER */
+
 .container{
     margin: auto;
     max-width: 1000px;
     height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.about{
+.section{
+    padding-bottom: 80px;
+}
+
+#about{
     width: 100%;
     height: 100%;
     background: url("../assets/rick.jpg") no-repeat center;
     background-size: cover;
 }
 
-.about .section_content{
+#about .content_section{
     padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.work{
-    padding-bottom: 80px;
-}
-
-.discography{
-    padding-bottom: 80px;
-}
-
-.discography .section_content{
+#discography .content_section{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -124,49 +133,21 @@ p{
     align-items: center; 
 }
 
-.discography .section_content iframe{
+#discography .content_section iframe{
     padding: 10px;
 }
 
-.footer{
-    height: 200px;
-}
-
-.contact{
-    display: none;
-    height: 100%;
+#gravity img{
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.7);
-    -webkit-box-shadow: 0px 0px 39px 7px rgba(0,0,0,0.24); 
-    box-shadow: 0px 0px 39px 7px rgba(0,0,0,0.24);
 }
 
-.contact .section_content{
+.footer{
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
-.contact .section_content form{
-    background-color: #011627;
-    border-radius: 5px;
-    width: 600px;
-    height: 400px;
-    padding: 10px; 
-}
-
-.close{
-    width: 15px;
-    height: 15px;
-    background-color: white;
-    position: relative;
-    float: right; 
-    border-radius: 15px; 
-}
-
-.section_title{
+.title_section{
     display: flex;
     justify-content: center;
     padding-top: 70px;
