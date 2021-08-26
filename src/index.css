@@ -218,6 +218,8 @@ iframe{
     position: relative;
     padding-bottom: 56.25%;
     height: 0; 
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .video_container iframe{
