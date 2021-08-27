@@ -102,7 +102,7 @@ iframe{
     transition-duration: 150ms;
 }
 
-#open_menu_button{
+.open_menu_button{
     display: none;
     position: absolute;
     top: 20px;
@@ -113,7 +113,7 @@ iframe{
     z-index: 2;
 }
 
-#close_menu_button{
+.close_menu_button{
     display: none;
     position: absolute;
     top: 20px;
@@ -122,6 +122,7 @@ iframe{
     width: 50px;
     height: 50px;
     z-index: 2;
+    opacity: 0;
 }
 
 @media(max-width: 800px){
@@ -131,8 +132,12 @@ iframe{
         height: 100%;
     }
 
-    #open_menu_button{
+    .open_menu_button{
         display: inline;
+    }
+
+    .close_menu_button{
+        opacity: 1;
     }
 }
 
@@ -175,11 +180,11 @@ iframe{
     display: none;
 }
 
-#about{
+.about{
     display: inline;
 }
 
-#discography .content_section{
+.discography .content_section{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -187,15 +192,15 @@ iframe{
     align-items: center; 
 }
 
-#discography .content_section iframe{
+.discography .content_section iframe{
     margin: 10px;
 }
 
-#gravity{
+.gravity{
     display: none;
 }
 
-#gravity img{
+.gravity img{
     width: 100%;
 }
 
@@ -237,6 +242,7 @@ iframe{
 /* DROPDOWN CONTENT CONTAINER */
 
 .dropdown_content{
+    display: none;
     opacity: 0;
     height: 0;
     pointer-events: none;
@@ -260,6 +266,7 @@ iframe{
 }
 
 .dropdown_content:hover{
+    display: inline;
     opacity: 1;
     pointer-events: all;
     height: auto;
@@ -270,7 +277,25 @@ iframe{
 }
 
 .dropdown_button:hover + .dropdown_content{
+    display: inline;
     opacity: 1;
     height: 10000px;
     pointer-events: all;
+}
+
+.displayNone{
+    display: none;
+    background-color: white;
+}
+
+.displayInline{
+    display: inline;
+}
+
+.displayFlex{
+    display: flex;
+}
+
+.linkTextColorOn{
+    color: #acd9ff;
 }
