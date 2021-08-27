@@ -14,6 +14,9 @@ const header = document.querySelector(".header");
 const open_menu_button = document.querySelector(".open_menu_button");
 const close_menu_button = document.querySelector(".close_menu_button");
 
+const drop_button = document.querySelector(".dropdown_button");
+const drop_content = document.querySelector(".dropdown_content");
+
 const displayNone = "displayNone";
 const displayFlex = "displayFlex";
 const displayInline = "displayInline";
@@ -73,6 +76,14 @@ function enablePage(page){
     document.querySelector("#" + name + "_button").classList.add(linkTextColorOn);
 }
 
+function dropContent(){
+    if(drop_content.style.maxHeight === "0px"){
+        drop_content.style.maxHeight = "100em";
+    } else{
+        drop_content.style.maxHeight = "0px";
+    }
+}
+
 
 // INIT FUNCTIONS
 
@@ -103,6 +114,10 @@ function initListeners(){
     gravity_button.addEventListener("click", function(){
         disablePages();
         enablePage(gravity_page); 
+    });
+
+    drop_button.addEventListener("click", function(){
+        dropContent();
     });
 }
 

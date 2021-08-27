@@ -241,15 +241,19 @@ iframe{
 /* ----------------------------------------------------- */
 /* DROPDOWN CONTENT CONTAINER */
 
+
+.dropdown_button{
+    background-color: red;
+    cursor: pointer;
+}
+
 .dropdown_content{
-    display: none;
-    opacity: 0;
-    height: 0;
-    pointer-events: none;
-    transition: all 1500ms ease;
+    max-height: 0;
+    transition: all 500ms ease;
     width: 90%;
     margin: auto;
     padding-top: 40px;
+    overflow: hidden;
 }
 
 .dropdown_content h3{
@@ -265,23 +269,9 @@ iframe{
     padding-bottom: 40px;
 }
 
-.dropdown_content:hover{
-    display: inline;
-    opacity: 1;
-    pointer-events: all;
-    height: auto;
-}
 
-.dropdown_button{
-    background-color: red;
-}
-
-.dropdown_button:hover + .dropdown_content{
-    display: inline;
-    opacity: 1;
-    height: 10000px;
-    pointer-events: all;
-}
+/* ----------------------------------------------------- */
+/* OTHER STYLES */
 
 .displayNone{
     display: none;
