@@ -123,6 +123,7 @@ function initListeners(){
 
 function initPage(){
     about_button.classList.add(linkTextColorOn);
+    drop_content.style.maxHeight = "0px";
 }
 
 

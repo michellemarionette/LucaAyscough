@@ -248,7 +248,6 @@ iframe{
 }
 
 .dropdown_content{
-    max-height: 0;
     transition: all 500ms ease;
     width: 90%;
     margin: auto;
