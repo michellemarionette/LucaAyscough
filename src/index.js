@@ -19,7 +19,7 @@ const drop_content = document.querySelector(".dropdown_content");
 
 const displayNone = "displayNone";
 const displayFlex = "displayFlex";
-const displayInline = "displayInline";
+const displayBlock = "displayBlock";
 const clearDisplay = "clearDisplay";
 const linkTextColorOn = "linkTextColorOn";
 
@@ -41,7 +41,7 @@ function switchDisplay(displayType, element){
 function openMenu(){
     switchDisplay(displayFlex, header);
     switchDisplay(displayNone, open_menu_button);
-    switchDisplay(displayInline, close_menu_button);
+    switchDisplay(displayBlock, close_menu_button);
 }
 
 function closeMenu(){
@@ -49,14 +49,6 @@ function closeMenu(){
     switchDisplay(clearDisplay, open_menu_button);
     switchDisplay(clearDisplay, close_menu_button);
 }
-
-open_menu_button.addEventListener("click", function(){
-    openMenu();
-});
-
-close_menu_button.addEventListener("click", function(){
-    closeMenu();
-});
 
 function disablePages(){
     switchDisplay(displayNone, about_page);
@@ -72,7 +64,7 @@ function disablePages(){
 
 function enablePage(page){
     var name = page.classList[1];
-    switchDisplay(displayInline, page);
+    switchDisplay(displayBlock, page);
     document.querySelector("#" + name + "_button").classList.add(linkTextColorOn);
 }
 
@@ -122,7 +114,6 @@ function initListeners(){
 }
 
 function initPage(){
-    about_button.classList.add(linkTextColorOn);
     drop_content.style.maxHeight = "0px";
 }
 

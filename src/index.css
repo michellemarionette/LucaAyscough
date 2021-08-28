@@ -133,7 +133,7 @@ iframe{
     }
 
     .open_menu_button{
-        display: inline;
+        display: block;
     }
 
     .close_menu_button{
@@ -181,7 +181,7 @@ iframe{
 }
 
 .about{
-    display: inline;
+    display: block;
 }
 
 .discography .content_section{
@@ -274,11 +274,10 @@ iframe{
 
 .displayNone{
     display: none;
-    background-color: white;
 }
 
-.displayInline{
-    display: inline;
+.displayBlock{
+    display: block;
 }
 
 .displayFlex{
