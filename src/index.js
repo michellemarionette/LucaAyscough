@@ -15,7 +15,7 @@ const open_menu_button = document.querySelector(".open_menu_button");
 const close_menu_button = document.querySelector(".close_menu_button");
 
 const drop_button = document.querySelector(".dropdown_button");
-const drop_content = document.querySelector(".dropdown_content");
+const drop_content = document.querySelector(".dropdown_container");
 
 const displayNone = "displayNone";
 const displayFlex = "displayFlex";
