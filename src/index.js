@@ -23,6 +23,10 @@ const displayBlock = "displayBlock";
 const clearDisplay = "clearDisplay";
 const linkTextColorOn = "linkTextColorOn";
 
+const mediaQuery = matchMedia(`(max-width: 800px)`);
+
+var menu_is_open = false;
+
 
 // FUNCTIONS
 
@@ -38,16 +42,40 @@ function switchDisplay(displayType, element){
     }
 }
 
+function fixPage(){
+    document.querySelector("body").style.height = "100%";
+    document.querySelector("body").style.width = "100%";
+    document.querySelector("body").style.overflow = "hidden";
+
+    console.log("Fix page.")
+}
+
+function unfixPage(){
+    document.querySelector("body").style.height = null;
+    document.querySelector("body").style.width = null;
+    document.querySelector("body").style.overflow = null;
+
+    console.log("Unfix page.");
+}
+
 function openMenu(){
     switchDisplay(displayFlex, header);
     switchDisplay(displayNone, open_menu_button);
     switchDisplay(displayBlock, close_menu_button);
+    fixPage();
+    menu_is_open = true;
+
+    console.log("Open menu.");
 }
 
 function closeMenu(){
     switchDisplay(clearDisplay, header);
     switchDisplay(clearDisplay, open_menu_button);
     switchDisplay(clearDisplay, close_menu_button);
+    unfixPage();
+    menu_is_open = false;
+    
+    console.log("Close menu.");
 }
 
 function disablePages(){
@@ -110,6 +138,14 @@ function initListeners(){
 
     drop_button.addEventListener("click", function(){
         dropContent();
+    });
+
+    mediaQuery.addEventListener("change", function(){
+        if(mediaQuery.matches && menu_is_open){
+            fixPage();
+        } else if(!mediaQuery.matches && menu_is_open){
+            unfixPage();
+        }
     });
 }
 

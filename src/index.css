@@ -4,8 +4,6 @@
 }
 
 html, body{
-    height: 100%;
-    width: 100%;
     background-color: #efefea;
     color: #2b3e46; 
     font-family: "Neue Haas Grotesk Display Pro 55 Roman";
@@ -262,4 +260,10 @@ iframe{
 
 .linkTextColorOn{
     color: #acd9ff;
+}
+
+.menuOpen{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
