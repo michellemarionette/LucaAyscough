@@ -70,7 +70,7 @@ function enablePage(page){
 
 function dropContent(){
     if(drop_content.style.maxHeight === "0px"){
-        drop_content.style.maxHeight = "100em";
+        drop_content.style.maxHeight = "1000em";
     } else{
         drop_content.style.maxHeight = "0px";
     }

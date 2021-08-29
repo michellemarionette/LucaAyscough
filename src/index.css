@@ -50,7 +50,7 @@ iframe{
     width: 100%;
     position: fixed;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #2b3e46;
 }
 
 .header .logo{flex-basis: 15%;}
@@ -71,6 +71,7 @@ iframe{
 
 .header .page_links a{
     margin: 0 20px;
+    font-family: "Neue Haas Grotesk Display Pro 65 Medium";
 }
 
 .header .social_links .social_icon{
@@ -85,7 +86,7 @@ iframe{
 .open_menu_button{
     display: none;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 20px;
     width: 40px;
@@ -96,7 +97,7 @@ iframe{
 .close_menu_button{
     display: none;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 20px;
     width: 40px;
@@ -115,7 +116,6 @@ iframe{
 
     .header .page_links{
         flex-flow: column;
-        align-items: flex-start;
         font-size: 30px;    
     }
 
@@ -167,6 +167,16 @@ iframe{
 }
 
 .section{display: none;}
+
+.title_section{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .about{display: block;}
 
 .discography .content_section{
@@ -210,7 +220,7 @@ iframe{
 
 
 .dropdown_button{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #2b3e46;
     cursor: pointer;
     margin: 20px 0px;
     padding: 5px 10px;
@@ -223,7 +233,7 @@ iframe{
     margin: auto;
     margin-top: 40px;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #2b3e46;
     color: #efefea;
 }
 
