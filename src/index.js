@@ -25,7 +25,7 @@ const displayBlock = "displayBlock";
 const clearDisplay = "clearDisplay";
 const linkTextColorOn = "linkTextColorOn";
 
-const mediaQuery = matchMedia(`(max-width: 800px)`);
+const mediaQuery = matchMedia(`(max-width: 1000px)`);
 
 var menu_is_open = false;
 
