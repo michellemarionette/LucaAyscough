@@ -40,7 +40,7 @@
 .header .social_links .social_icon{
     height: 30px;
     width: 30px;
-    margin: 0 5px;
+    margin: 0 8px;
     transition-duration: 150ms;
     opacity: 0.8;
 }
@@ -62,7 +62,7 @@
 
     .header .logo h2{
         font-size: 38px;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .header .page_links{
