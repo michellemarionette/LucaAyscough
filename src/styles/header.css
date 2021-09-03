@@ -1,0 +1,113 @@
+.header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: var(--color-dark);
+}
+
+.header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+    color: var(--color-light);
+    text-align: center;
+}
+
+.header .logo h2{padding: 5px;}
+
+.header .page_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 60%;
+}
+
+.header .page_links a{
+    margin: 0 20px;
+    font-family: "Neue Haas Grotesk Display Pro 65 Medium";
+}
+
+.header .social_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 20%;
+}
+
+.header .social_links .social_icon{
+    height: 30px;
+    width: 30px;
+    margin: 8px;
+    transition-duration: 150ms;
+    opacity: 0.8;
+}
+
+.header .social_links .social_icon:hover{
+    opacity: 1;
+}
+
+.open_menu_button{
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 30px;
+    z-index: 2;
+}
+
+.close_menu_button{
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 30px;
+    z-index: 2;
+    opacity: 0;
+}
+
+@media(max-width: 1000px){
+    .header{
+        display: none;
+        width: 100%;
+        height: 100%;
+        flex-flow: column;
+    }
+
+    .header .logo{
+        align-items: flex-start;
+    }
+
+    .header .logo h2{
+        font-size: 36px;
+        margin-top: 12px;
+    }
+
+    .header .page_links{
+        flex-flow: column;
+        font-size: 30px;    
+    }
+
+    .header .page_links a{
+        padding: 5px 0;
+    }
+
+    .open_menu_button{
+        display: block;
+    }
+
+    .close_menu_button{
+        opacity: 1;
+    }
+}
+
+@media(max-width: 460px){
+    .header .logo h2{
+        margin-top: 56px;
+    }
+}

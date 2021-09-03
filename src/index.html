@@ -13,24 +13,29 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="fonts.css">
-        <link rel="stylesheet" href="menu_icons.css">
+        
+        <link rel="stylesheet" href="./styles/variables.css">
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/header.css">
+        <link rel="stylesheet" href="./styles/content.css">
+        <link rel="stylesheet" href="./styles/menu_icons.css">
+
+        <link rel="stylesheet" href="./styles/fonts.css">
     </head>
 
     <body>
         <div class="open_menu_button">
             <div class="open_menu_icon">
-                <div class="line_1"></div>
-                <div class="line_2"></div>
-                <div class="line_3"></div>
+                <div class="menu_line"></div>
+                <div class="menu_line"></div>
+                <div class="menu_line"></div>
             </div>
         </div>
         <div class="close_menu_button">
             <div class="close_menu_icon">
-                <div class="line_1"></div>
-                <div class="line_2"></div>
-                <div class="line_3"></div>
+                <div class="menu_line"></div>
+                <div class="menu_line"></div>
+                <div class="menu_line"></div>
             </div>
         </div>
 
@@ -260,5 +265,13 @@
         </div>
     </body>
 
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="./scripts/index.js"></script>
+    <script type="text/javascript" src="./scripts/header.js"></script>
+    <script type="text/javascript" src="./scripts/pages.js"></script>
+    <script type="text/javascript" src="./scripts/listeners.js"></script>
+    <script>
+        updatePageVisibility();
+        initListeners();
+        dropdownContent.style.maxHeight = "0px";
+    </script>
 </html>
