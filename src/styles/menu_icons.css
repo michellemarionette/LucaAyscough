@@ -1,3 +1,14 @@
+.menu_button{
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    top: var(--content-pad);
+    left: var(--content-pad);
+    width: 35px;
+    height: 25px;
+    z-index: 2;
+}
+
 .open_menu_icon{
     height: 100%;
     width: 100%;
@@ -24,4 +35,8 @@
     height: 100%;
     background-color: var(--color-light);
     width: 14%;
+}
+
+@media(max-width: 1000px){
+    .open_menu_button{display: block;}
 }

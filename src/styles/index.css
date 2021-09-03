@@ -9,14 +9,8 @@ html, body{
     font-family: "Neue Haas Grotesk Display Pro 55 Roman";
 }
 
-h1, h2, h3, h4{
-    font-family: "Neue Haas Grotesk Display Pro 75 Bold";
-}
-
-h1, h2, h3, h4, p{
-    padding: 5px 0;
-    letter-spacing: 0.5px;
-}
+h1, h2, h3, h4{font-family: "Neue Haas Grotesk Display Pro 75 Bold";}
+h1, h2, h3, h4, p{letter-spacing: 0.5px;}
 
 h1{font-size: 38px;}
 h2{font-size: 26px;}

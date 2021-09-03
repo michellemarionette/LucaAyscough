@@ -1,18 +1,12 @@
 .container{
     margin: auto;
     max-width: 1000px;
-    padding: 0 10px;
-    padding-top: 100px;
+    padding: 0 var(--content-pad);
+    padding-top: 80px;
 }
 
-.container a{
-    color: var(--inactive-link);
-}
-
-.container a:hover{
-    color: var(--active-link);
-}
-
+.container a{color: var(--inactive-link);}
+.container a:hover{color: var(--active-link);}
 .section{display: none;}
 
 .section img{
@@ -25,15 +19,13 @@
     position: absolute;
     top: 10px;
     left: 0;
-    display: flex;
+    display: none;
     justify-content: center;
     width: 100%;
 }
 
-@media(max-width: 460px){
-    .title_section{
-        position: static;
-    }
+@media(max-width: 1000px){
+    .title_section{display: flex;}
 }
 
 .content_section img{
