@@ -4,7 +4,7 @@ var pagesState = [true, false, false, false];
 function updateActiveLink(){
     for(let i = 0; i < PAGES.length; i++){
         if(pagesState[i] === true)
-            document.querySelector("#" + PAGES[i] + "_button").style.color = activeText;
+            document.querySelector("#" + PAGES[i] + "_button").style.color = activeLink;
         else
             document.querySelector("#" + PAGES[i] + "_button").style.color = null;
     }

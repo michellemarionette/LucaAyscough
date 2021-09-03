@@ -1,7 +1,7 @@
 const root = window.getComputedStyle(document.querySelector(":root"));
 const colorDark = root.getPropertyValue("--color-dark");
 const colorLight = root.getPropertyValue("--color-light");
-const activeText = root.getPropertyValue("--active-text");
+const activeLink = root.getPropertyValue("--active-link");
 
 const BODY = document.querySelector("body");
 const HEADER = document.querySelector(".header");
