@@ -5,6 +5,14 @@
     padding-top: 100px;
 }
 
+.container a{
+    color: var(--inactive-link);
+}
+
+.container a:hover{
+    color: var(--active-link);
+}
+
 .section{display: none;}
 
 .section img{
@@ -50,16 +58,6 @@
 
 .discography .content_section iframe{margin: 10px;}
 .gravity img{width: 100%;}
-
-.footer{
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-.footer a{color: var(--color-dark);}
 
 .video_container{
     position: relative;

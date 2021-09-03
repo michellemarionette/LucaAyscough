@@ -1,5 +1,6 @@
 :root{
     --color-light: #efefea;
     --color-dark: #2b3e46;
-    --active-text: #6fc0bf;
+    --inactive-link: #644e9b;
+    --active-link: #6fc0bf;
 }
