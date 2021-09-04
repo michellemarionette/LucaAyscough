@@ -73,6 +73,10 @@
     .header .page_links a{
         padding: 5px 0;
     }
+
+    .header .social_links{
+        align-items: flex-end;
+    }
 }
 
 @media(max-width: 460px){
