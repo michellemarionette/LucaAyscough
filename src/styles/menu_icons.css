@@ -1,12 +1,18 @@
 .menu_button{
     display: none;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: var(--content-pad);
     left: var(--content-pad);
     width: 35px;
     height: 25px;
     z-index: 3;
+    opacity: 0.3;
+    transition: opacity 300ms ease;
+}
+
+.menu_button:hover{
+    opacity: 1;
 }
 
 .open_menu_icon{
