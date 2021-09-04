@@ -5,7 +5,7 @@
     top: var(--content-pad);
     left: var(--content-pad);
     width: 35px;
-    height: calc(35px * var(--menu-icon-ratio));
+    height: 25px;
     z-index: 3;
 }
 
