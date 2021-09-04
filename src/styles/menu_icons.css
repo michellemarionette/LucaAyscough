@@ -1,12 +1,12 @@
 .menu_button{
     display: none;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     top: var(--content-pad);
     left: var(--content-pad);
     width: 35px;
-    height: 25px;
-    z-index: 2;
+    height: calc(35px * var(--menu-icon-ratio));
+    z-index: 3;
 }
 
 .open_menu_icon{
@@ -37,6 +37,6 @@
     width: 14%;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1200px){
     .open_menu_button{display: block;}
 }

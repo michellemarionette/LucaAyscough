@@ -1,12 +1,13 @@
 .container{
     margin: auto;
-    max-width: 1000px;
+    max-width: 1200px;
     padding: 0 var(--content-pad);
     padding-top: 80px;
+    z-index: 1;
 }
 
-.container a{color: var(--inactive-link);}
-.container a:hover{color: var(--active-link);}
+.container a{color: var(--active-link);}
+.container a:hover{color: var(--color-dark);}
 .section{display: none;}
 
 .section img{
@@ -24,7 +25,7 @@
     width: 100%;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1200px){
     .title_section{display: flex;}
 }
 

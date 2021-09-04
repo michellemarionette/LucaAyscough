@@ -13,7 +13,7 @@ const gravityButton = document.querySelector("#gravity_button");
 
 const dropButton = document.querySelector(".dropdown_button");
 const dropdownContent = document.querySelector(".dropdown_container");
-const mediaQuery = matchMedia(`(max-width: 1000px)`);
+const mediaQuery = matchMedia(`(max-width: 1200px)`);
 
 function fixPage(){
     BODY.style.height = "100%";
