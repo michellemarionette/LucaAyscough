@@ -5,9 +5,6 @@
 
 html, body{
     background-color: var(--color-light);
-    background-image: url("../assets/banner.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
     color: var(--color-dark);
     font-family: "Neue Haas Grotesk Display Pro 55 Roman";
 }

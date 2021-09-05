@@ -75,6 +75,15 @@
     }
 }
 
+
+@media(max-height: 400px){
+    .header .page_links{
+        flex-flow: row;
+        flex-wrap: wrap;
+        font-size: 26px;
+    }
+}
+
 @media(max-width: 460px){
     .header .logo h2{font-size: clamp(1px, 38px, 38px);}
 }

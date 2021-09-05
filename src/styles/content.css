@@ -18,7 +18,7 @@
 
 .title_section{
     position: absolute;
-    top: 10px;
+    top: 11px;
     left: 0;
     display: none;
     justify-content: center;
@@ -27,6 +27,21 @@
 
 @media(max-width: 1200px){
     .title_section{display: flex;}
+}
+
+.banner{
+    background-color: var(--color-light);
+    background-image: url("../assets/banner.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+@media(orientation: portrait){
+    .banner{
+        background-size: cover;
+    }
 }
 
 .content_section img{
@@ -70,7 +85,6 @@
 
 /* ----------------------------------------------------- */
 /* DROPDOWN CONTENT CONTAINER */
-
 
 .dropdown_button{
     background-color: var(--color-dark);
