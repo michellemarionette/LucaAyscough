@@ -38,7 +38,7 @@
     width: 100%;
 }
 
-@media(orientation: portrait){
+@media(max-aspect-ratio: 3000/2700){
     .banner{
         background-size: cover;
     }
