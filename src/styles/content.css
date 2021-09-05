@@ -47,6 +47,7 @@
 .content_section img{
     width: 100%;
     box-shadow: none;
+    margin: 40px 0;
 }
 
 .content_section p{
@@ -62,15 +63,14 @@
     align-items: center; 
 }
 
-.discography .content_section iframe{margin: 10px;}
+.discography .content_section iframe{margin: 20px;}
 .gravity img{width: 100%;}
 
 .video_container{
     position: relative;
     padding-bottom: 56.25%;
     height: 0; 
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: 40px 0;
 }
 
 .video_container iframe{
