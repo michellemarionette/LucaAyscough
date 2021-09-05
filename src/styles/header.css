@@ -48,7 +48,7 @@
 .header .social_links .social_icon:hover{opacity: 1;}
 
 
-@media(max-width: 1200px){
+@media(max-width: 1000px){
     .header{
         display: none;
         width: 100%;

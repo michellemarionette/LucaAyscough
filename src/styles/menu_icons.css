@@ -43,6 +43,6 @@
     width: 14%;
 }
 
-@media(max-width: 1200px){
+@media(max-width: 1000px){
     .open_menu_button{display: block;}
 }

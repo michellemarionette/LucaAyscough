@@ -1,6 +1,6 @@
 .container{
     margin: auto;
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 0 var(--content-pad);
     padding-top: 80px;
     z-index: 1;
@@ -25,7 +25,7 @@
     width: 100%;
 }
 
-@media(max-width: 1200px){
+@media(max-width: 1000px){
     .title_section{display: flex;}
 }
 
@@ -34,7 +34,7 @@
     background-image: url("../assets/banner.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
 }
 
