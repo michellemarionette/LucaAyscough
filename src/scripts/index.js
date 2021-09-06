@@ -6,7 +6,7 @@ const activeLink = root.getPropertyValue("--active-link");
 const BODY = document.querySelector("body");
 const HEADER = document.querySelector(".header");
 
-const aboutButton = document.querySelector("#about_button");
+const homeButton = document.querySelector("#home_button");
 const workButton = document.querySelector("#work_button");
 const discographyButton = document.querySelector("#discography_button");
 const gravityButton = document.querySelector("#gravity_button");

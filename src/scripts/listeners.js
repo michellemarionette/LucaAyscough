@@ -7,8 +7,8 @@ function initListeners(){
         updateMenuState(false);
     });
     
-    aboutButton.addEventListener("click", function(){
-        setPageVisibility("about");
+    homeButton.addEventListener("click", function(){
+        setPageVisibility("home");
     });
     
     workButton.addEventListener("click", function(){

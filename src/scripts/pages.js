@@ -1,4 +1,4 @@
-const PAGES = ["about", "work", "discography", "gravity"];
+const PAGES = ["home", "work", "discography", "gravity"];
 var pagesState = [true, false, false, false];
 
 function updateActiveLink(){
