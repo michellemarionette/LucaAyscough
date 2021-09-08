@@ -9,18 +9,30 @@ function initListeners(){
     
     homeButton.addEventListener("click", function(){
         setPageVisibility("home");
+        if(menuIsOpen){
+            updateMenuState(false);
+        }
     });
     
     workButton.addEventListener("click", function(){
         setPageVisibility("work");
+        if(menuIsOpen){
+            updateMenuState(false);
+        }
     });
     
     discographyButton.addEventListener("click", function(){
         setPageVisibility("discography");
+        if(menuIsOpen){
+            updateMenuState(false);
+        }
     });
     
     gravityButton.addEventListener("click", function(){
         setPageVisibility("gravity");
+        if(menuIsOpen){
+            updateMenuState(false);
+        }
     });
 
     dropButton.addEventListener("click", function(){
