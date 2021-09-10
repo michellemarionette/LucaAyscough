@@ -2,7 +2,7 @@
     margin: auto;
     max-width: 1000px;
     padding: 0 var(--content-pad);
-    padding-top: 80px;
+    padding-top: 60px;
     z-index: 1;
 }
 
@@ -14,6 +14,8 @@
     box-shadow: 0px 2px 18px -2px rgba(0,0,0,0.53);
     -webkit-box-shadow: 0px 2px 18px -2px rgba(0,0,0,0.53);
     -moz-box-shadow: 0px 2px 18px -2px rgba(0,0,0,0.53);
+    width: 100%;
+    margin: 40px 0;
 }
 
 .title_section{
@@ -44,12 +46,6 @@
     }
 }
 
-.content_section img{
-    width: 100%;
-    box-shadow: none;
-    margin: 40px 0;
-}
-
 .content_section p{
     width: 97%;
     margin: auto;
@@ -64,7 +60,11 @@
 }
 
 .discography .content_section iframe{margin: 20px;}
-.gravity img{width: 100%;}
+
+.gravity .gravity_banner{
+    box-shadow: none;
+    margin-top: 0;
+}
 
 .video_container{
     position: relative;
