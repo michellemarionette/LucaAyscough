@@ -2,13 +2,14 @@
     margin: auto;
     max-width: 1000px;
     padding: 0 var(--content-pad);
-    padding-top: 60px;
+    padding-top: 40px;
     z-index: 1;
 }
 
 .container a{color: var(--active-link);}
 .container a:hover{color: var(--color-dark);}
-.section{display: none;}
+
+.section{padding-top: 40px;}
 
 .section img{
     box-shadow: 0px 2px 18px -2px rgba(0,0,0,0.53);
@@ -51,21 +52,6 @@
     margin: auto;
 }
 
-.discography .content_section{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center; 
-}
-
-.discography .content_section iframe{margin: 20px;}
-
-.gravity .gravity_banner{
-    box-shadow: none;
-    margin-top: 0;
-}
-
 .video_container{
     position: relative;
     padding-bottom: 56.25%;
@@ -80,48 +66,3 @@
     width: 100%;
     height: 100%;
 }
-
-/* ----------------------------------------------------- */
-/* DROPDOWN CONTENT CONTAINER */
-
-.dropdown_button{
-    background-color: var(--color-dark);
-    cursor: pointer;
-    margin: 20px 0px;
-    padding: 10px 20px;
-    color: var(--color-light);
-}
-
-.dropdown_container{
-    transition: all 500ms ease;
-    width: 96%;
-    margin: auto;
-    margin-top: 40px;
-    overflow: hidden;
-    background-color: var(--color-dark);
-    color: var(--color-light);
-}
-
-.dropdown_content{padding: 20px;}
-
-.dropdown_content h2{
-    padding-bottom: 10px;
-}
-.dropdown_content h3{
-    font-size: 22px;
-    padding-bottom: 10px;
-}
-.dropdown_content h4{
-    font-size: 18px;
-    padding-bottom: 10px;
-    font-family: "Neue Haas Grotesk Display Pro 65 Medium";
-}
-.dropdown_content p{
-    font-size: 16px;
-    padding-bottom: 10px;
-}
-
-.dropdown_content .job{padding-bottom: 30px;}
-
-.dropdown_content a{color: var(--active-link);}
-.dropdown_content a:hover{color: var(--color-light);}

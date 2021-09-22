@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="./styles/pages/gravity.css">
+
 <div class="section gravity">
     <div class="title_section">
         <h1>GRAVITY</h1>

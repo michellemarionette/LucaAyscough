@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="./styles/pages/work.css">
+
 <div class="section work">
     <div class="title_section">
         <h1>WORK</h1>

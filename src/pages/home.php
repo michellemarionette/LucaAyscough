@@ -1,42 +1,24 @@
+<link rel="stylesheet" href="./styles/pages/home.css">
+
 <div class="section home">
     <div class="title_section">
         <h1>LUCA AYSCOUGH</h1>
     </div>
 
     <div class="content_section">
+        <div class="video_container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4SLPdiaT3Ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h3>ABOUT</h3><br>
         <p>
             I have been studying and playing music most of my life and I am fascinated by technology and its relationship to music and sound. I specialize in audio production and sound design and have worked in a large variety of creative and technical contexts allowing me to develop my skills as an engineer, sound designer and producer. I am also the creator of Gravity, an audio plugin which allows users to generate sounds in an unprecedented way.
         </p><br><br>
 
-        <h3>SKILLS</h3><br>
-        <p>
-            Expertise with Operating Systems (Windows, Mac, Linux).<br>
-            Expertise with Digital Audio Workstations (Live, Cubase, Pro Tools).<br>
-            Expertise in music production.<br>
-            Expertise with plugins necessary to audio post-processing.<br>
-            Expertise in various audio synthesis techniques.<br>
-            Expertise with commercial sound libraries.<br>
-            Expertise in audio recording, editing and mixing.<br>
-            Knowledge of programming, machine learning and audio processing algorithms (C++, JUCE, Python, PyTorch).<br>
-            Knowledge of version control software (Git).<br>
-        </p><br><br>
-
-
-        <h3>OTHER RELEVANT SKILLS</h3><br>
-        <p>
-            Native speaker of English and Italian.<br>
-            Knowledge of music theory and compositional practices.<br>
-            Multi-instrumentalist (Guitar, Drums, Piano).<br>
-            Knowledge of video and photo editing (Premiere Pro, Photoshop).<br>
-            Knowledge of web technologies (HTML, CSS, JavaScript).<br>
-        </p><br><br>
+        
         
         <div class="dropdown_button">
             <h4>View Curriculum Vitae</h4>
-            <div class="dropdown_arrow">
-                <div class="arrow_p1"></div>
-                <div class="arrow_p2"></div>
-            </div>
         </div>
 
         <div class="dropdown_container">
@@ -122,8 +104,33 @@
                     </p>
                 </div>
 
+                <h2>SKILLS</h2>
+                <p class="job">
+                    Expertise with Operating Systems (Windows, Mac, Linux).<br>
+                    Expertise with Digital Audio Workstations (Live, Cubase, Pro Tools).<br>
+                    Expertise in music production.<br>
+                    Expertise with plugins necessary to audio post-processing.<br>
+                    Expertise in various audio synthesis techniques.<br>
+                    Expertise with commercial sound libraries.<br>
+                    Expertise in audio recording, editing and mixing.<br>
+                    Knowledge of programming, machine learning and audio processing algorithms (C++, JUCE, Python, PyTorch).<br>
+                    Knowledge of version control software (Git).<br>
+                </p>
+
+
+                <h2>OTHER RELEVANT SKILLS</h2>
+                <p class="job"> 
+                    Native speaker of English and Italian.<br>
+                    Knowledge of music theory and compositional practices.<br>
+                    Multi-instrumentalist (Guitar, Drums, Piano).<br>
+                    Knowledge of video and photo editing (Premiere Pro, Photoshop).<br>
+                    Knowledge of web technologies (HTML, CSS, JavaScript).<br>
+                </p>
+
                 <center><a href="./documents/CV.pdf" target="_blank">Download the CV here.</a></center>
             </div>
         </div>
     </div>
 </div>
+
+<script type="text/javascript" src="./scripts/home.js"></script>

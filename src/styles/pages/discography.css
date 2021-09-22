@@ -1,0 +1,11 @@
+#discography_button{color: var(--active-link);}
+
+.discography .content_section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.discography .content_section iframe{margin: 20px;}

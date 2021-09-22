@@ -1,0 +1,6 @@
+#gravity_button{color: var(--active-link);}
+
+.gravity .gravity_banner{
+    box-shadow: none;
+    margin-top: 0;
+}

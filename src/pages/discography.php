@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="./styles/pages/discography.css">
+
 <div class="section discography">
     <div class="title_section">
         <h1>DISCOGRAPHY</h1>
