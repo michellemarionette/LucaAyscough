@@ -16,6 +16,10 @@
             Links to download the alpha version of the app can be found in the <a href="#" target="_blank">GitHub repository</a>.
         </p>
 
+        <div class="video_container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Lq9KwCJg6uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
         <img src="./assets/gravity.png">
     </div>
 </div>
