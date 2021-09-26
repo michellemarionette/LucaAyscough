@@ -6,9 +6,9 @@
 
     <div class="page_links">
         <a id="home_button" href="?page=home">HOME</a>
-        <a id="work_button" href="?page=work#container">WORK</a>
-        <a id="discography_button" href="?page=discography#container">DISCOGRAPHY</a>
-        <a id="gravity_button" href="?page=gravity#container">GRAVITY</a>
+        <a id="work_button" href="?page=work">WORK</a>
+        <a id="discography_button" href="?page=discography">DISCOGRAPHY</a>
+        <a id="gravity_button" href="?page=gravity">GRAVITY</a>
         <a href="mailto: lucaayscough@gmail.com">CONTACT</a>
     </div>
 

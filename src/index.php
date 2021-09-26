@@ -19,25 +19,25 @@
 
     <body>
         <?php include "./includes/menu_icon.php" ?>
-        <?php include "includes/header.php"; ?>
+        <?php include "./includes/header.php"; ?>
 
-        <div class="banner"></div>
+       
         <div class="container" id="container">
             <?php
                 if($_GET["page"] == "work"){
-                    include "pages/work.php";
+                    include "./pages/work.php";
                 }
                 else if($_GET["page"] == "discography"){
-                    include "pages/discography.php";
+                    include "./pages/discography.php";
                 }
                 else if($_GET["page"] == "gravity"){
-                    include "pages/gravity.php";
+                    include "./pages/gravity.php";
                 }
                 else{
-                    include "pages/home.php";
+                    include "./pages/home.php";
                 }
 
-                include "includes/footer.php";
+                include "./includes/footer.php";
             ?>
         </div>
     </body>
