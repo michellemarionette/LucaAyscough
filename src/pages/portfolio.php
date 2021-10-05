@@ -1,8 +1,8 @@
-<link rel="stylesheet" href="./styles/pages/work.css">
+<link rel="stylesheet" href="./styles/pages/portfolio.css">
 
-<div class="section work">
+<div class="section portfolio">
     <div class="title_section">
-        <h1>WORK</h1>
+        <h1>PORTFOLIO</h1>
     </div>
     
     <div class="content_section">

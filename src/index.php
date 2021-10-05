@@ -24,8 +24,8 @@
        
         <div class="container" id="container">
             <?php
-                if($_GET["page"] == "work"){
-                    include "./pages/work.php";
+                if($_GET["page"] == "portfolio"){
+                    include "./pages/portfolio.php";
                 }
                 else if($_GET["page"] == "discography"){
                     include "./pages/discography.php";
