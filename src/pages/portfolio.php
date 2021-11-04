@@ -137,14 +137,15 @@
                 <h2>SKILLS</h2>
                 <p class="job">
                     Expertise with Operating Systems (Windows, Mac, Linux).<br>
-                    Expertise with Digital Audio Workstations (Live, Cubase, Pro Tools).<br>
+                    Expertise with Digital Audio Workstations (Live, Reaper, Logic, Cubase, Pro Tools).<br>
                     Expertise in music production.<br>
-                    Expertise with plugins necessary to audio post-processing.<br>
+                    Expertise in audio post-processing (RX).<br>
                     Expertise in various audio synthesis techniques.<br>
                     Expertise with commercial sound libraries.<br>
                     Expertise in audio recording, editing and mixing.<br>
-                    Knowledge of programming, machine learning and audio processing algorithms (C++, JUCE, Python, PyTorch).<br>
+                    Knowledge of programming, machine learning and audio processing algorithms (Max/MSP, C++, JUCE, Python, PyTorch).<br>
                     Knowledge of version control software (Git).<br>
+                    Konwledge of audio implementation middleware (Wwise).<br>
                 </p>
 
 
