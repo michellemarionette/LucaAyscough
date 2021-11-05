@@ -31,11 +31,14 @@
         <h3>SOUND DESIGN WORK</h3><br>
         <p>
             Here is my demo reel.
-            These are redesigns of clips I gathered from the internet to demonstrate my sound design skills.
+            These are redesigns of clips I gathered from the internet to demonstrate my sound design skills.<br><br>
+
+            
+            1. Celeste Footage: <a target="_blank" href="https://www.youtube.com/watch?v=SJVkIafaS1M">The Triple S League</a>;
         </p>
 
         <div class="video_container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yWawkcCWDRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Sol7cXCV8Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
         </div>
     </div>
     
@@ -147,7 +150,6 @@
                     Knowledge of version control software (Git).<br>
                     Konwledge of audio implementation middleware (Wwise).<br>
                 </p>
-
 
                 <h2>OTHER RELEVANT SKILLS</h2>
                 <p class="job"> 
