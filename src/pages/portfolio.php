@@ -6,7 +6,7 @@
     </div>
     
     <div class="content_section">
-        <h3>ADVERTISEMENT WORK</h3><br>
+        <h3>ADVERTISING WORK</h3><br>
         <p>
             Following are a few examples of advertising jobs for which I was hired to write and produce musical scores.
             I have included a couple of videos that showcase the contexts the music was used in.
