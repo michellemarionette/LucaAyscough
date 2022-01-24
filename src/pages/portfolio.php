@@ -30,15 +30,11 @@
     <div class="content_section">
         <h3>SOUND DESIGN WORK</h3><br>
         <p>
-            Here is my demo reel.
-            These are redesigns of clips I gathered from the internet to demonstrate my sound design skills.<br><br>
-
-            
-            1. Celeste Footage: <a target="_blank" href="https://www.youtube.com/watch?v=SJVkIafaS1M">The Triple S League</a>;
+            Here are audio redesigns of gaming clips I gathered from the internet to practice my sound design skills.<br><br>
         </p>
 
-        <div class="video_container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Sol7cXCV8Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+        <div class="video_container">  
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EVo5l5grOlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     
@@ -47,7 +43,7 @@
     <div class="content_section">
         <h3>ABOUT</h3><br>
         <p>
-            I have been studying and playing music most of my life and I am fascinated by technology and its relationship to music and sound. I specialize in audio production and sound design and have worked in a large variety of creative and technical contexts allowing me to develop my skills as an engineer, sound designer and producer. I am also the creator of Gravity, an audio plugin which allows users to generate sounds in an unprecedented way.
+            I have been studying and playing music most of my life and I am fascinated by technology and its relationship to music and sound. I specialize in music production and composition and have worked in a large variety of creative and technical contexts allowing me to develop my skills as an composer, sound designer and producer. I am also the creator of Gravity, an audio plugin which allows users to generate sounds in an unprecedented way.
         </p><br>
     
         <div class="dropdown_button">
@@ -59,7 +55,7 @@
                 <h2>BACKGROUND</h2>
                 <div class="job">
                     <p>
-                        I was born in Edinburgh in 1998 and moved to Sicily when I was five. With family in both countries, I travel regularly between the two and am fluent in English and Italian. My schooling was in Sicily and in 2017 I moved to Bologna to study music and cinema. I became interested in computers from the age of ten and quickly developed the skills to design and build websites. My main passion is music, learning to play guitar when I was eleven. Now a composer/producer, I have produced music for my fellow musicians and for commercial projects as well as my own creative endeavours for years. I have worked alongside a wide spectrum of people and deeply believe in the power of collaboration. I am a compulsive learner, always looking to expand my skills and knowledge. I am currently based in Edinburgh but I will soon be moving to London.
+                        I was born in Edinburgh in 1998 and moved to Sicily when I was five. With family in both countries, I travel regularly between the two and am fluent in English and Italian. My schooling was in Sicily and in 2017 I moved to Bologna to study music and cinema. I became interested in computers from the age of ten and quickly developed the skills to design and build websites. My main passion is music, learning to play guitar when I was eleven. Now a composer/producer, I have produced music for my fellow musicians and for commercial projects as well as my own creative endeavours for years. I have worked alongside a wide spectrum of people and deeply believe in the power of collaboration. I am a compulsive learner, always looking to expand my skills and knowledge.
                     </p>
                 </div>
 
@@ -139,25 +135,25 @@
 
                 <h2>SKILLS</h2>
                 <p class="job">
-                    Expertise with Operating Systems (Windows, Mac, Linux).<br>
-                    Expertise with Digital Audio Workstations (Live, Reaper, Logic, Cubase, Pro Tools).<br>
-                    Expertise in music production.<br>
-                    Expertise in audio post-processing (RX).<br>
-                    Expertise in various audio synthesis techniques.<br>
-                    Expertise with commercial sound libraries.<br>
-                    Expertise in audio recording, editing and mixing.<br>
-                    Knowledge of programming, machine learning and audio processing algorithms (Max/MSP, C++, JUCE, Python, PyTorch).<br>
-                    Knowledge of version control software (Git).<br>
-                    Konwledge of audio implementation middleware (Wwise).<br>
+                    Operating Systems (Windows, Mac, Linux).<br>
+                    Digital Audio Workstations (Live, Reaper, Logic, Cubase, Pro Tools).<br>
+                    Music production.<br>
+                    Audio post-processing (RX, Waves).<br>
+                    Audio synthesis techniques.<br>
+                    Commercial sound libraries.<br>
+                    Audio recording, editing and mixing.<br>
+                    Programming, machine learning and audio processing algorithms (Max/MSP, C++, JUCE, Python, PyTorch).<br>
+                    Version control software (Git).<br>
+                    Audio implementation middleware (Wwise).<br>
                 </p>
 
                 <h2>OTHER RELEVANT SKILLS</h2>
                 <p class="job"> 
                     Native speaker of English and Italian.<br>
-                    Knowledge of music theory and compositional practices.<br>
+                    Music theory and compositional practices.<br>
                     Multi-instrumentalist (Guitar, Drums, Piano).<br>
-                    Knowledge of video and photo editing (Premiere Pro, Photoshop).<br>
-                    Knowledge of web technologies (HTML, CSS, JavaScript).<br>
+                    Video and photo editing (Premiere Pro, Photoshop).<br>
+                    Web technologies (HTML, CSS, JavaScript).<br>
                 </p>
 
                 <center><a href="./documents/CV.pdf" target="_blank">Download the CV here.</a></center>
