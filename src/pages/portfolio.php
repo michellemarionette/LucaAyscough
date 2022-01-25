@@ -31,6 +31,8 @@
         <h3>SOUND DESIGN WORK</h3><br>
         <p>
             Here are audio redesigns of gaming clips I gathered from the internet to practice my sound design skills.<br><br>
+            1. Celeste;<br>
+            2. Hyper Light Drifter;<br>
         </p>
 
         <div class="video_container">  
