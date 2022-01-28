@@ -1,11 +1,13 @@
 #discography_button{color: var(--active-link);}
 
-.discography .content_section{
+.discography .content_section .artist{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center; 
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .discography .content_section iframe{margin: 20px;}
