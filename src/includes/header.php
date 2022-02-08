@@ -34,7 +34,7 @@
                         ./assets/icons/github-3.png 3x"
                 alt="Github" class="social_icon">
         </a>
-        <a href="https://happyfacefactory.bandcamp.com/" target="_blank">
+        <a href="https://lucaayscough.bandcamp.com/" target="_blank">
             <img src="./assets/icons/bandcamp-1.png"
                 srcset="./assets/icons/bandcamp-1.png,
                         ./assets/icons/bandcamp-2.png 2x,
