@@ -15,11 +15,11 @@
         </p>
 
         <div class="video_container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ci7Qm-7AcUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/675367062?h=477b27851d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Cairn MyCairn"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
         </div>
 
         <div class="video_container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ejoQD93jDug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/675367011?h=2ff8783adb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Blackwood"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
         </div>
 
         <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1295042182&color=%232b3e46&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -36,7 +36,7 @@
         </p>
 
         <div class="video_container">  
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/EVo5l5grOlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/675367123?h=b8e48d9b09&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Game Audio Design"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
         </div>
     </div>
     
