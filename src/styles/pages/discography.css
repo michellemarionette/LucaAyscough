@@ -1,5 +1,17 @@
 #discography_button{color: var(--active-link);}
 
+.discography .content_section .artist_links{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.discography .content_section .artist_links > a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .discography .content_section .artist{
     display: flex;
     justify-content: center;
