@@ -11,7 +11,7 @@
         <div class="artist_links">
             <a href="https://open.spotify.com/artist/3pL3kprYPu9X8HjDzHe47T?si=T6zlfXDERHeCUUsf0FmdnQ" target="_blank">SPOTIFY</a> | 
             <a href="https://www.youtube.com/channel/UCLcEsYoqfcFq7CmSFUvSKOw" target="_blank">YOUTUBE</a> | 
-            <a href="" target="_blank">APPLE MUSIC</a> | 
+            <a href="https://music.apple.com/ph/artist/luca-ayscough/1609490117" target="_blank">APPLE MUSIC</a> | 
             <a href="https://lucaayscough.bandcamp.com/" target="_blank">BANDCAMP</a> | 
             <a href="https://soundcloud.com/lucaayscough" target="_blank">SOUNDCLOUD</a> | 
             <a href="https://www.instagram.com/lucaayscough/" target="_blank">INSTAGRAM</a>
