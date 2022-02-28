@@ -6,6 +6,8 @@
     </div>
 
     <div class="content_section">
+        <!--!add show/hide images for each artist!-->
+
         <center><h2>LUCA AYSCOUGH</h2></center>
 
         <div class="artist_links">
