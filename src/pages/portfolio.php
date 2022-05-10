@@ -6,6 +6,13 @@
     </div>
     
     <div class="content_section">
+
+        <h3>COMPOSITION WORK</h3><br>
+
+        <div class="video_container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nxrTgd-Pkdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
         <h3>ADVERTISING WORK</h3><br>
         <p>
             Following are a few examples of advertising jobs for which I was hired to write and produce musical scores.
